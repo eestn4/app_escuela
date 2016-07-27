@@ -1,6 +1,7 @@
 ### Aplicación de la escuela con información de la misma
 ======
-* Alumnos
+#### Alumnos
+
 - Alesandro Matias
 - Medina Martin
 - Romero Leandro
