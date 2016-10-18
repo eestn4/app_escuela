@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	  <link type="text/css" rel="stylesheet" href="estilo1.css"/>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <title>EEST</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minumun-scale1.0" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+  </head>
+
+<body>
+      <header>
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-mm">
+                            <span class="sr-only">Desplegar / Ocultar menu</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                        <img class="logotipo" src="img/logot4.jpg" alt="">
+                        <a href="#" class="navbar-brand">EEST Nº4</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navegacion-mm">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Inicio.html">Inicio</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    Alumnos <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Materias</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Califcaciones</a></li>
+                                    <li class="divider"></li>
+                                    <li class="active"><a href="#">Inscripciones</a></li>                                                                  
+                                </ul>
+                            </li>
+                            <li><a href="informacion.html">Información</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="jumbotron">
+            <div class="container">
+                <h1>EEST Nº4 - Prof. Ricardo A. Lopez</h1>
+                <p class="titulo-blog">Berazategui</p>
+            </div>
+        </section>
+        <article class="post clearfix">
+                
+                <p class="post-contenido text-justify"><ul>
+                  <h3>Ingrese Los Datos Del Alumno</h3>
+
+<form action="inscripcion/inscripto/inscripto.html" method="" align="left" >
+  <li>Nombre:</li>
+  <li><input type="text" name="nombre" value=""placeholder="Ingrese su nombre" required /></li>
+  <li>Apellido:</li>
+  <li><input type="text" name="apellido" value="" placeholder="Ingrese su apellido" required /></li>
+  <li>DNI:</li>
+  <li><input type="number" name="dni" value="" placeholder="Ingrese su numero de dni" required/></li>
+  <li>PARA QUE AÑO SOLICITA VACANTE?:</li>
+  <li><input type="number" name="nombre" value="" placeholder="Ingrese año " required/></li>
+  <br>
+ </font>
+  <br/>
+ 
+  <input type="submit" value="Enviar" />
+</form>
+</ul></p>
+                    </article>
+     
+
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="js/docs.min.js"></script>
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
