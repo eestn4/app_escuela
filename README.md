@@ -1,9 +1,12 @@
-### Aplicación de la escuela con información de la misma
+### Módulo para solicitud de turno para primer año (para ingresantes)
 ======
+
 #### Alumnos
 
-- Alesandro Matias
-- Medina Martin
-- Romero Leandro
-- Ruiz Franco
-- Pasahan Martin
+- Bernal Gaston 
+- Monge Facundo
+- Cabaña Sebastian
+- Chavez Fernando
+- Diaz Maximiliano
+- Ruiz Nahuel
+
